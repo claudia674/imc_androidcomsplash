@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/txtTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="16dp"
+            android:text="PAINEL DE CONTROLE DA AERONAVE"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnLigar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1 - Ligar Aeronave" />
+
+        <Button
+            android:id="@+id/btnCheckList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2 - Realizar Check List" />
+
+        <Button
+            android:id="@+id/btnAutorizacaoDecolar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3 - Solicitar Autorização para Decolar" />
+
+        <Button
+            android:id="@+id/btnSubir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4 - Subir 10.000 pés" />
+
+        <Button
+            android:id="@+id/btnAutorizacaoDescer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5 - Solicitar Autorização para Pousar" />
+
+        <Button
+            android:id="@+id/btnDescer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6 - Descer 10.000 pés" />
+
+        <Button
+            android:id="@+id/btnDesligar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7 - Desligar Aeronave" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Status da Aeronave"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtStatus"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="8dp"
+            android:background="#E0E0E0"
+            android:focusable="false"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:padding="8dp"
+            android:scrollbars="vertical" />
+
+    </LinearLayout>
+</ScrollView>

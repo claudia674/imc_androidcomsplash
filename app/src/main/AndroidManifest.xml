@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.IMC_AndroidComSplash">
+
+        <!-- ================= TELA ATIVA ================= -->
+
+
+        <!-- Escolha aqui a Activity que vai iniciar o aplicativo -->
+
+        <activity
+            android:name=".Caldeira_Industrial"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- ================= OUTRAS TELAS ================= -->
+
+
+        <!-- Tela IMC -->
+        <!--
+        <activity
+            android:name=".IMC_Android"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        -->
+
+
+        <!-- Tela lógica carro -->
+        <!--
+        <activity
+            android:name=".Logica_carro"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        -->
+
+
+        <!-- Menu de exemplos -->
+        <!--
+        <activity
+            android:name=".ExemplosMenu"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        -->
+
+
+        <!-- Exemplo -->
+        <!--
+        <activity
+            android:name=".Exemplo"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        -->
+
+
+        <!-- Cálculo Água -->
+        <!--
+        <activity
+            android:name=".App_Calculo_Agua"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        -->
+
+
+        <!-- Aeronave -->
+        <!--
+        <activity
+            android:name=".Aeronave"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        -->
+
+        <activity
+            android:name=".Banco_Dados"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Aeronave"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Simulador_de_Mergulho_Submarino"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+
+    </application>
+
+</manifest>
