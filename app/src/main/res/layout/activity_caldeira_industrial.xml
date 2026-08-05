@@ -22,7 +22,7 @@
             android:text="PAINEL DE CONTROLE DA CALDEIRA"
             android:textSize="18sp"
             android:textStyle="bold" />
-
+conse
         <com.google.android.material.switchmaterial.SwitchMaterial
             android:id="@+id/switchEnergia"
             android:layout_width="match_parent"
